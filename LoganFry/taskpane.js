@@ -23,8 +23,7 @@ export async function run() {
   var item = Office.context.mailbox.item;
 
   // Write message property value to the task pane
-  document.getElementById("item-subject").innerHTML = "<b>Graduation:</b> <br/>" + item.subject;
-  // This will pull all emails with "Graduation in the subject line. Perfect to make sure I don't have to be in school in the fall."
+  document.getElementById("item-subject").innerHTML = "<b>Subject:</b> <br/>" + item.subject;
 }
 
 // All run code with the exception oft?tabs=yeomangenerator
