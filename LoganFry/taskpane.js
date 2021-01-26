@@ -26,5 +26,4 @@ export async function run() {
   document.getElementById("item-subject").innerHTML = "<b>Subject:</b> <br/>" + item.subject;
 }
 
-// All run code with the exception oft?tabs=yeomangenerator
-// was obtained from https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/outlook-quickstar
+// All code was obtained from https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/outlook-quickstart?tabs=yeomangenerator
