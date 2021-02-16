@@ -15,12 +15,26 @@ function addSignature(string){
     }
     return string;
 }
+
+/**
+ * 
+ * @param {*} string 
+ */
 function toUpperCase(string){ 
 
     return string.toUpperCase(); 
 
 } 
 
+/**
+ * 
+ * @param {*} string 
+ */
+function toLowerCase(string){ 
+
+    return string.toLowerCase(); 
+
+} 
 module.exports = {
     addSignature : addSignature,
     toUpperCase: toUpperCase,   
