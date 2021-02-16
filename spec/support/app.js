@@ -1,5 +1,9 @@
 
 var signatureList = [];
+/**
+ * 
+ * @param {*} string 
+ */
 function addSignature(string){
     if(string !== null){
         for(var i = 0 ; i < signatureList.length; i++){
@@ -11,7 +15,14 @@ function addSignature(string){
     }
     return string;
 }
+function toUpperCase(string){ 
+
+    return string.toUpperCase(); 
+
+} 
 
 module.exports = {
     addSignature : addSignature,
+    toUpperCase: toUpperCase,   
+    toLowerCase: toLowerCase, 
 }
