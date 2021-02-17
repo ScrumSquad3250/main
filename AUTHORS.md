@@ -1,4 +1,6 @@
-Logan Fry
-Alex Emch
-Ken Frankovich
-Marie Diaoune
+Logan Fry,
+Alex Emch,
+Ken Frankovich,
+Marie Diaoune,
+Gabriella Esquibel,
+Mohamed Elsheikh,
